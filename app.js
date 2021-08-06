@@ -101,5 +101,6 @@ function sindan() {
     }else{
         alert("チェックボックスをちゃんと選択してください");
     }
+    
 }
 
