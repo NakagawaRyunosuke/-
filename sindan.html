@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>診断</title>
+    <style>
+        div {
+            background-color: rgba(223, 236, 212, 0.8);
+            text-align: center;
+        }
+    </style>
+</head>
+<body background="haikei.jpg">
+    
+    <div>
+        <p><font size="7">診断スタート</font></p>
+        <p><font size="4">いくつかの質問に答えて自分に合ったじゃがりこを見つけよう！</font></p>
+    </div>
+    <br>
+    <div>
+        <form action="kekka.text" method="post">
+            <br>
+            <p>急に休みがもらえたら…<br>
+            <input type="checkbox" id="box1" >外に出て運動！
+            <input type="checkbox" id="box2" >家でゴロゴロ
+            </p>
+            <br>
+            <p>恋愛をするとしたら…<br>
+            <input type="checkbox" id="box3" >積極的に自分から！
+            <input type="checkbox" id="box4" >消極的で受け身
+            </p>
+            <br>
+            <p>イチゴのショートケーキは…<br>
+            <input type="checkbox" id="box5" >先に食べちゃう
+            <input type="checkbox" id="box6" >最後に残しておく
+            </p>
+            <br>
+            <p>もし生まれ変わるのなら…<br>
+            <input type="checkbox" id="box7" >また人間に生まれたい
+            <input type="checkbox" id="box8" >別の生き物になってみたい
+            </p>
+            <br>
+            <button id="button" type="button" onclick="sindan()">診断！</button>
+
+            </form>
+            
+    </div>
+    
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
